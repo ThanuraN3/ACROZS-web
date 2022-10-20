@@ -1792,6 +1792,15 @@ input[type=text], select, textarea {
     text-align:start;
     font-size: 25px;
 }
+.contactus-form .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+
+}
+
 @media only screen and (min-width: 2000px){
     #img-fourth{
         padding-right: 20px;
@@ -1869,18 +1878,18 @@ input[type=text], select, textarea {
 /* .......................sections five........................ */
 
 .contact-us-section-five h1{
-    padding-top: 70px;
+    padding-top: 40px;
     text-align: center;
     color: #f3f3f3;
     font-size: 75px;
-    font-weight: bold;
+    font-weight: bolder;
     position: relative;
 }
 .contact-us-section-five p{
     text-align: center;
     color:#f8faf9;
     font-size: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
  }
  @media only screen and (max-width: 800px){
     .contact-us-section-five h1{
@@ -1918,3 +1927,108 @@ iframe{
     }
 }
 
+/* ...........................university................................... */
+.university-section-four{
+    background-color: #FEFFE0;
+    padding-bottom: 35px;
+}
+.university-section-four h2{
+    padding-top: 20px;
+    color: #207848;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+}
+.university-section-four p{
+    padding-top: 10px;
+    color: #000;
+    text-align: center;
+}
+.university-section-four #section-for-consultant{
+    color: #207848;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align:start;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.university-section-four .uni-flag{
+    padding: 80px;
+}
+.university-section-four .consul{
+    width: 70%;
+    padding-left: 35px;
+    
+}
+.university-section-four .consul p{
+    font-size: 15px;
+}
+.university-section-four .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    
+}
+.uni-btn{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* .............................uni left............................ */
+.deakin-uni{
+    width: 70%;
+}
+.griffith-uni{
+    width: 70%;
+}
+.usc-uni{
+    width: 75%;
+}
+@media only screen and (max-width: 800px){
+    .contact{
+        display: none;
+    }
+    .swin-uni{
+        width: 50%;
+    }
+    .deakin-uni{
+        width: 40%;
+    }
+    .edith-uni{
+        width: 50%;
+    }
+    .griffith-uni{
+        width: 40%;
+    }
+    .usc-uni{
+        width: 40%;
+    }
+    .york-uni{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .contact{
+        display: none;
+    }
+    .swin-uni{
+        width: 100%;
+    }
+    .deakin-uni{
+        width: 100%;
+    }
+    .edith-uni{
+        width: 100%;
+    }
+    .griffith-uni{
+        width: 100%;
+    }
+    .usc-uni{
+        width: 100%;
+    }
+    .york-uni{
+        width: 100%;
+    }
+}
