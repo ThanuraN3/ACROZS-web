@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/font/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -21,9 +22,7 @@
     <script src="/assets/js/main.js"></script>
 </head>
 <body>
-
-
-    <header class="header pb-lg-5">
+    <header class="header">
         <nav class="navbar navbar-expand-lg ">
             <div class="container ">
     
@@ -43,7 +42,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">About Us</a>
+                    <a class="nav-link" href="aboutus.html">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link"  href="pathners.html">Partners</a>
@@ -51,11 +50,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="university.html">Universities</a>
                   </li>
-                  
                   <li class="nav-item">
                     <a class="nav-link" href="contactus.html">Contact Us</a>
                   </li>
-                  
                 </ul>
                 
                 <ul class="navbar-nav ms-auto"> 
@@ -67,205 +64,187 @@
             </div>
           </nav>
     </header>
-    
-<!-- ...........................first-section................................ -->
+  <!-- ................................section-one......................................... -->
 
-<section class="section-one" style="background-image:url(assets/images/aboutus/about.png) ;">
-  <div class="container">
+  <section class="section-one" style="background-image:url(assets/images/parthner/Vector.jpg) ;">
+    <div class="container">
     <div class="row">
-        <div class="col-lg-6 col-md-6"></div>
-        <div class="col-lg-6 col-md-6 col-sm-12 ">
-            <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-8 first-words">
-                    <h2>your future starts here</h2>
-                    <h1>Meet the <br> Experts</h1>
+        <div class="col-lg-6 col-md-6 col-sm-12 first-words">
+            <h2>your future starts here</h2>
+            <h1>Our <br> Consultants!</h1>
+        </div>
+        <div class="col-lg-6 col-md-6">
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ........................section two........................... -->
+
+<!-- ........................section three........................... -->
+
+<section class="section-three pt-lg-5 pt-md-5 pt-sm-5">
+    <div class="container">
+      <h1>Our Consultants!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elitMaxime mollitia, consectetur adipisicing elitMaxime mollitia</p>
+    </div>
+  </section>
+
+<!-- ........................section four........................... -->
+
+
+<section class="search-consultant">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-4 col-sm-6 py-5" style="background-color: #F6F4F4;">
+                <div class="parthners-form">   
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Select Country</option>
+                        <option>Australia</option>
+                        <option>newzeland</option>
+                        <option>United Kindom</option>
+                        <option>United State</option>
+                        </select>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-lg-5 col-md-4 col-sm-6 py-5" style="background-color: #F6F4F4;">
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Select University</option>
+                      <option>Swinburne University</option>
+                      <option>Deakin University</option>
+                      <option>Edith Cowan University</option>
+                      <option>Griffith University</option>
+                      <option>USC University</option>
+                      <option>York St John University</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 py-lg-5 py-md-5 " style="background-color: #F6F4F4;">
+                <div class="parthner-btn">
+                    <button type="button" class="btn btn-success" id="search-btn">Search</button>
+                    <button type="button" class="btn btn-danger" id="clear-btn">Clear</button> 
                 </div>
             </div>
         </div>
     </div>
-  </div>  
 </section>
 
-<!-- ...........................second-section................................ -->
-
-<section class="section-two">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-11 col-sm-10 second-section-first">
-        <h1>Over +1000 Universities</h1>
-      </div>
-      <div class="col-lg-6">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 second-section-second">
-            <h1>6,700</h1>
-           <p>Students</p>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 second-section-second">
-            <h1>100</h1>
-            <p>Students</p>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 second-section-second">
-            <h1>55</h1>
-            <p>Students</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- .............................third-section.............................. -->
-
-<section class="section-three">
-  <div class="container">
-    <h1>Who are we!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elitMaxime mollitia,
-      molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumLorem ipsum dolor sit amet consectetur adipisicing elitMaxime mollitia,
-      </p>
-  </div>
-</section>
-
-<!-- .............................fourth-section.............................. -->
-
-<section class="section-four">
-  <div class="container">
-    <h1>Our Parthner Universities</h1>
-    <div class="row g-5 align-items-center">
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/SWINBURNE.jfif" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/deakinuni.jfif" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/Australiaedithcoanuniversity.jfif" alt="">          
-        </div>
-      </div>
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/griffithuniversity.jfif" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/usc.jfif" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-mg-3 col-sm-6">
-        <div class="section-for-img">
-          <img src="assets/images/uni/yorkuni.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3"></div>
-    </div>
-  </div>
-</section>
-
-<!-- .............................fifth-section.............................. -->
-
-<section class="section-five">
-  <div class="container">
-    <div class="fifth-section-words">
-      <h1>What we do!</h1>
-      <p>Lectus sed amet cursus ipsum. Turpis ornare mattis.</p>
-    </div>
-    <div class="row align-items-center">
-        <div class="sevice-details">   
-          <div class="owl-carousel service-carousel">
-                            
-              <div class="item">
-                <div class="card-con pt-5">
-                  <div class="card-content pt-5">
-                      <div class="icon-grad">
-                          <span> <i class="fa-solid fa-user-graduate" style=" font-size: 10rem; "></i></span>
-                      </div>
-                      <div class="content-details">
-                          <h1>Tortor lobortis sed et ut nullam tempor.</h1>
-                          <br>
-                          <br>
-                          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h3>
-                          
-                      </div>
-                      <div class="aroow-icon">
-                        <i class="fa-solid fa-arrow-right"></i>
-                      </div>
-                  </div>
-                </div>
-              </div>
-            
-              <div class="item">
-                  <div class="card-con pt-5">
-                      <div class="card-content pt-5">
-                          <div class="icon-grad" >
-                            <span>  <i class="fa-solid fa-ticket" style="font-size: 10rem;"></i></span>
-                          </div>
-                          <div class="content-details ">
-                              <h1>Tortor lobortis sed et ut nullam tempor.</h1>
-                              <br>
-                          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-                          </div>
-                          <div class="aroow-icon">
-                            <i class="fa-solid fa-arrow-right"></i>
-                          </div>
-                      </div>
-                  </div>
-                </div>     
-
-                <div class="item">
-                    <div class="card-con pt-5">
-                        <div class="card-content pt-5">
-                            <div class="icon-grad">
-                                <span>
-                                    <i class="fa-regular fa-user" style="font-size: 10rem;"></i>
-                                  </span>
-                            </div>
-                            <div class="content-details">
-                                <h1>Tortor lobortis sed et ut nullam tempor.</h1>
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-                            </div>
-                            <div class="aroow-icon">
-                              <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+<section class="consultant-search-result">
+    <div class="container">
+        <div class="searchresultfilter">
+            <div class="row">
+            <div class="col-lg-6 col-md-6 py-5">
+                    <h3>Search Result</h3>
+            </div>
+            <div class="col-lg-2 col-md-2 py-5" >
+                    <h3 id="filter"><i class="fa-solid fa-filter"></i>Filter </h3>
+            </div>
+            <div class="col-lg-2 col-md-2 py-3" >
+                    <div class="parthners-form">   
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Ratings</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            </select>
                         </div>
-                    </div>                 
+                    </div>
+            </div>
+            <div class="col-lg-2 col-md-2 py-3">
+                    <div class="parthners-form">   
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Exprience</option>
+                            <option>1 year</option>
+                            <option>2 year</option>
+                            <option>3 year</option>
+                            <option>4 year</option>
+                            <option>5 year</option>
+                            </select>
+                        </div>
+                </div></div>
+            </div>
+        </div>
+        <div class="row gy-5">
+            <div class="col-lg-6 col-md-6 py-5">
+                <div class="row">
+                    <div class="col-lg-4 py-5">
+                        <div class="con-img">
+                            <img src="assets/images/image-04_optimized.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 py-5">
+                        <p id="con-name">Lorem Ipsum lorem</p>
+                        <p id="con-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
+                        <p id="rate"><i class="fa-solid fa-star"></i>4.5/5</p>   
+                        <div class="con-btn">
+                            <button type="button" class="btn btn-success" id="con-btn">Schadule Meeting</button>
+                        </div>
+                    </div>
                 </div>
-          </div>
+            </div>
+            <div class="col-lg-6 col-md-6 py-5">
+                <div class="row">
+                    <div class="col-lg-4 py-5">
+                        <div class="con-img">
+                            <img src="assets/images/image-05_optimized.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 py-5">
+                        <p id="con-name">Lorem Ipsum lorem</p>
+                        <p id="con-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
+                        <p id="rate"><i class="fa-solid fa-star"></i>3.0/5</p>      
+                        <div class="con-btn">
+                            <button type="button" class="btn btn-success" id="con-btn">Schadule Meeting</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 py-5">
+                <div class="row">
+                    <div class="col-lg-4 py-5">
+                        <div class="con-img">
+                            <img src="assets/images/image-05_optimized.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 py-5">
+                        <p id="con-name">Lorem Ipsum lorem</p>
+                        <p id="con-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
+                        <p id="rate"><i class="fa-solid fa-star"></i>4.5/5</p>  
+                        <div class="con-btn">
+                            <button type="button" class="btn btn-success" id="con-btn">Schadule Meeting</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 py-5">
+                <div class="row">
+                    <div class="col-lg-4 py-5">
+                        <div class="con-img">
+                            <img src="assets/images/image-04_optimized.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 py-5">
+                        <p id="con-name">Lorem Ipsum lorem</p>
+                        <p id="con-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
+                        <p id="rate"><i class="fa-solid fa-star"></i>4.0/5</p>  
+                        <div class="con-btn">
+                            <button type="button" class="btn btn-success" id="con-btn">Schadule Meeting</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
 </section>
 
-<!-- .............................six-section.............................. -->
-
-<section class="section-six">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-sm-12 col-md-12">
-        <div class="section-six-img">
-          <img src="assets/images/aboutus/aboutus-main2.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-6 col-sm-12 col-md-12">
-        <h1>WHY CHOOSE US!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus quis tristique integer arcu viverra velit</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus quis </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. U </p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- .........................section ten...................... -->
 
 <section class="contact" style="background-image: url(assets/images/bg-contact-1_optimized.jpg); background-repeat: no-repeat;background-size: cover;">
   <div class="container" >  
@@ -297,16 +276,9 @@
                                               <h1>  <i class="fa-solid fa-location-dot" style="padding: auto; color: green; font-size:5rem;"></i> <span>&nbsp;</span> 9674 N.Newcastle Ave. Wasilla, <br>&nbsp;&nbsp;AK 99654</h1>
                                               </div>
                                           </div>
-                               
-                                  </div>
-                                 
-                                  
+                                  </div>      
                               </div>
                           </div>
-
-                          <!-- <div class="col-3">
-                              <img src="" alt="">   call here image
-                          </div> -->
                           <div class="col-lg-4" ></div>
                           <div class="col-lg-4">
                               <div class="contact-info align-items-center">>
@@ -325,20 +297,17 @@
                                                   </div>
                                               </form>
                                               <button type="button" class="btn btn-success">Submit</button>
-                                            </div>
-                                            
+                                            </div>            
                                       </div>
                                   </div>
                               </div>
                           </div>
-
                    </div>
                </div>
-       
   </div>
 </section>
 
-
+<!-- ............................FOOTER................................ -->
 <footer class="footer">
   <div class="footer-top">
       <div class="container" style="background-color: black; ">
@@ -402,25 +371,20 @@
                                                   </div>
                                           </div>                         
                                                           
-                                          
                                           <div class="col-sm-6 col-md-4 footer-widget-2">
-                                                      <div class="title-footer pb-5">
-                                                          <h5>Trending Post</h5>
-                                                      </div>
-                                                      <div class="content-footer">
-                                                          <ul class="footer-widget-ul pt-5">
-                                                              <li><a href="">Expansion of Interview</a></li>
-                                                              <li><a href="">Visa Processing</a></li>
-                                                          
-                                                          </ul>
-                                                      </div>
-                                             
+                                                <div class="title-footer pb-5">
+                                                    <h5>Trending Post</h5>
+                                                </div>
+                                                <div class="content-footer">
+                                                    <ul class="footer-widget-ul pt-5">
+                                                        <li><a href="">Expansion of Interview</a></li>
+                                                        <li><a href="">Visa Processing</a></li>
+                                                    </ul>
+                                              </div>
                                           </div>
-
                                      </div>
                               </div>
                           </div>
-
                  </div>
       </div>
   </div>
@@ -431,10 +395,9 @@
           <div class="row">
               <div class="col-12  copywrite">
                  <div class="copywrite-con d-block text-center">
-                      <p>Copyright © 2022 ACROZS All rights reserved. Design by <a href="http://">XESSGLOBAL</a></p>
+                      <p>Copyright © 2022 ACROZS All rights reserved. Design by <a href="https://xessglobal.com/">XESSGLOBAL</a></p>
                  </div>
-              </div>
-              
+              </div>          
           </div>
          </div>
       </div>
@@ -442,5 +405,7 @@
 
 
 </footer>
+
+
 </body>
 </html>

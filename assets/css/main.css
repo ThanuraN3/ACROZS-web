@@ -1002,14 +1002,28 @@ h5, p {
 .consultants{
             
     width: 100%;
-    background-color: #FFB600;
+    background-color:#207848;
     text-align: center;
-    height: 1000px;
-    border-bottom-left-radius: 16rem;
+    height: 550px;
     position: relative;
         
 }
+@media only screen and (max-width: 800px){
+    .consultants{
+        height: 450px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .consultants{
+        height: 600px;
+    }
+}
 
+@media only screen and (min-width: 1500px){
+    .consultants{
+        height: 950px;
+    }
+}
 .consultants::before{
     position: absolute;
     content:'';
@@ -1589,7 +1603,7 @@ input[type=text], select, textarea {
     padding: 40px;
     text-align: center;
     color:#207848;
-    font-size: 30px;
+    font-size: 26px;
  }
  @media only screen and (max-width: 780px){
     .section-three h1{
@@ -2031,4 +2045,77 @@ iframe{
     .york-uni{
         width: 100%;
     }
+}
+
+/* ..........................parthners............................ */
+
+.form-control{
+    padding: 11px;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+}
+.parthner-btn{
+    padding-top: 7px;
+}
+#search-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#clear-btn{
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+option{
+    font-size: 15px;
+}
+/* .......................search-results............................... */
+.searchresultfilter{
+    border-bottom: 0.9px solid #000000
+}
+.consultant-search-result h3{
+    text-align: left;
+    font-size: 20px;
+    
+}
+.consultant-search-result #filter{
+    text-align: right;
+}
+.consultant-search-result i{
+    text-align: left;
+    font-size: 20px;
+    padding-right: 10px;
+    
+}
+#con-name{
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#con-details{
+    color: #207848;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#con-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+@media only screen and (max-width: 500px){
+    .consultant-search-result #filter{
+        text-align: left;
+    }
+}
+#rate{
+    color: #000;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+#rate i{
+    color:#FFB600;
 }
